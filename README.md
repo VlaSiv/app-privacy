@@ -5,7 +5,7 @@ Public GitHub Pages site for Garmin Connect IQ app privacy policies.
 Published URLs:
 
 ```text
-https://vlasiv.github.io/app-privacy/privacy/
+https://vlasiv.github.io/app-privacy/hybrid-interval-timer/
 https://vlasiv.github.io/app-privacy/power-nap/
 ```
 
