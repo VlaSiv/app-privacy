@@ -65,7 +65,7 @@
   <body>
     <main>
       <h1>Power Nap Privacy Policy</h1>
-      <p class="updated">Last updated: July 3, 2026</p>
+      <p class="updated">Last updated: July 24, 2026</p>
 
       <p>
         Power Nap is a Garmin Connect IQ watch app for short rest sessions. The
@@ -77,16 +77,32 @@
       <h2>Data handled by the app</h2>
       <p>The app may handle the following data on the Garmin watch:</p>
       <ul>
-        <li>Selected nap duration and timer state during a session.</li>
-        <li>Recent nap summaries stored locally on the watch.</li>
-        <li>Planned nap duration and actual nap duration.</li>
-        <li>Whether the nap ended manually or when the timer completed.</li>
+        <li>App preferences, including nap duration, selected profile, timer delay, and Do Not Disturb reminder setting.</li>
+        <li>Active timer state while a nap or Settle delay is running.</li>
+        <li>A locally generated session identifier and start, end, and save timestamps.</li>
+        <li>Selected profile and planned nap and Settle durations.</li>
+        <li>Actual Settle, nap, and total elapsed durations.</li>
+        <li>Whether the session ended during Settle or Nap, manually or when the timer completed.</li>
+        <li>An optional post-nap rating selected by the user.</li>
         <li>Average, minimum, and maximum heart rate when provided by the Garmin device.</li>
         <li>Average SpO2 when provided by the Garmin device.</li>
         <li>Average respiration rate when provided by the Garmin device.</li>
         <li>Daily calorie delta when provided by the Garmin device.</li>
         <li>Do Not Disturb status at nap start and nap end.</li>
       </ul>
+      <p>
+        Available health values may be sampled while the timer is running. The
+        app stores only the compact summary values listed above, not a raw
+        sample-by-sample health timeline.
+      </p>
+
+      <h2>Local history and insights</h2>
+      <p>
+        Power Nap calculates recent history, 7-day and 30-day summaries, and
+        personal duration insights on the watch from locally stored nap
+        summaries and optional ratings. These calculations do not upload data
+        or create a cloud profile.
+      </p>
 
       <h2>Data sharing</h2>
       <p>
@@ -114,8 +130,10 @@
 
       <h2>Data retention and deletion</h2>
       <p>
-        Power Nap stores only a compact recent-summary history on the watch.
-        Deleting the app removes its local Connect IQ app storage.
+        Power Nap retains up to the 60 newest compact nap summaries on the
+        watch. The user can delete an individual saved nap and can change or
+        clear its optional rating. Deleting the app removes its local Connect IQ
+        app storage.
       </p>
 
       <h2>Medical use</h2>
